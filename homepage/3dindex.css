@@ -1,0 +1,29 @@
+body, html {
+	touch-action: none;
+	content-zooming: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+canvas {
+		top: -100vh;
+		position: relative;
+		margin: 0 auto;
+		height: 100%;
+		width: 100%;
+	}
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.dg.ac {
+	z-index: 2 !important; /* TODO Solve this in HTML */
+}

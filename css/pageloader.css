@@ -1,0 +1,63 @@
+/***********************************************************
+*** CUSTOMIZE THE LOADING SCREEN BACKGROUND + ICON COLORS
+************************************************************/
+/* loading screen background color */
+
+/***********************************************************
+*** THE NITTY-GRITTY
+************************************************************/
+/* the pageloader */
+#bonfire-pageloader {
+	background-color:#FFF;
+	background-image: url("https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@2.7/images/indexloading.webp");
+	position:absolute;
+	z-index:99999999999999;
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+  background-position: center;
+	margin: 0 auto;
+	background-size: cover;	
+}
+
+.bonfire-pageloader-hide {
+	display:none;
+}
+@media screen and (max-width: 550px) {
+#bonfire-pageloader {
+	background-image: url("https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@2.9/images/mload.webp");
+}
+}
+/****DEBUT PROGRESS****/
+#progress {
+    position: fixed;
+    height: 37px;
+    margin: auto;
+  	box-shadow : 0px 0px 10px #111111 inset;
+  	user-select: none;
+    width: 100%;
+    bottom: 0px;
+}
+
+#charge {
+  height: 37px;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(40, 70, 120, 0.7);
+  margin: 0 auto;
+  animation: charge 7s ;
+  -webkit-animation: charge 7s ;
+  -moz-animation: charge 7s ;
+  box-shadow: 0px 0px 5px #222 inset;
+}
+@-webkit-keyframes charge {
+  0% {width : 0px;}
+  100% {width : 100%;}
+}
+
+@keyframes charge {
+  0% {width : 0px;}
+  25% {width : 100%;}
+}
+/****FIN PROGRESS****/
+

@@ -1,0 +1,76 @@
+
+#scrollPage {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 视觉差 */
+#overMove {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#overMove div {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 110%;
+  height: 110vh;
+}
+#overMove div:nth-child(2) { position: absolute; }
+#overMove div:nth-child(3) { position: absolute; }
+#overMove div i {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -5%;
+  top: -5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#overMove div:nth-child(1) i {
+  background-image: url("https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@2.5/images/bgpart_1.webp");
+  background-position: center;
+}
+#overMove div:nth-child(2) i {
+  background-image: url("https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@2.5/images/bgpart_2.webp");
+  background-position: absolute;
+  top: 0%;
+  width: 65%;
+  height: 100%;
+  left: 36%;
+  
+}
+#overMove div:nth-child(3) i {
+  background-image: url("https://cdn.jsdelivr.net/gh/Nyaplus-Beta/cdn@2.5/images/bgpart_3.webp");
+  background-position: absolute;
+  background-size: 90%;
+  top: 3%;
+  left: -4%;
+}
+@media screen and (max-width:1366px){
+	#overMove div:nth-child(2) i {
+	background-position: relative;
+	background-size:70%;
+	top: 0%;
+	width:100%;
+	left: 40%;	
+	}
+}
+@media screen and (max-width:640px){
+	#overMove div:nth-child(2) i {
+	background-position: relative;
+	background-size:170%;
+	top: 15%;
+	width:100%;
+	left: 0%;	
+	}
+	
+}	

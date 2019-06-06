@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://www.hostker.com/about.html -->
+<html app="help" view="qa"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>文档 - Hostker - 可能是最萌的SSR服务商</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=1280">
+<link rel="stylesheet" href="./static/css/i.css">
+<meta name="renderer" content="webkit"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="apple-mobile-web-app-title" content="Hostker"><meta name="google" value="notranslate">
+<style>
+table{
+width: 100%;
+margin-bottom: 20px;
+max-width: 100%;
+background-color: transparent;
+border-collapse: collapse;
+border-spacing: 0;
+	display: table;
+	border: 1px solid #ddd;
+border-collapse: separate;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+thead{
+	display: table-header-group;
+vertical-align: middle;
+border-color: inherit;
+}
+td{
+border-left: 1px solid #eee;
+border-top: 1px solid #eee;
+	padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #ddd;
+}
+th{
+border-top: 1px solid #eee;
+}
+</style>
+</head><body><header class="a-fadeinT">
+<div class="layout">
+	<a href="https://www.hostker.com/">
+		<h1>Hostker</h1>
+	</a>
+	<nav>
+		<a href="http://www.zhujike.com/" target="_blank">主页</a>
+		<!-- <a href="#/">资费</a> -->
+		<a href="https://ssr.kurumi.ink/auth/login">登录</a>
+		<a href="https://ssr.kurumi.ink/auth/register" class="login-link">注册</a>
+	</nav>
+</div>
+</header>
+<h1 id="标题">免责声明</h1>
+<div class="main-box">
+<div id="M" class="md-content layout">
+
+<h1>财务相关</h1>
+
+<h2>费用是如何收取的？</h2>
+
+<p>我们沿用前身开发平台的按需计费模式，以贝壳为计费单位，1 贝壳 = 0.01 人民币元。每小时预扣下一小时费用，开通预扣一小时，计费周期不足一小时按一小时计算。当用户贝壳耗尽后，根据等级的不同保留不同的时间。为避免位数过多，采用 K贝壳（千贝壳）为单位。</p>
+
+<h2>贝壳可以提现或者转账吗？</h2>
+
+<p>不能。</p>
+
+<h2>贝壳有没有存在有效期？</h2>
+
+<p>没有，随时可用。</p>
+
+<h1>技术相关</h1>
+
+<h2>提供哪些操作系统？</h2>
+
+<p>Linux：CentOS 6、CentOS 7、Debian 8、Ubuntu 16，均为 64 位系统。</p>
+
+<p>Windows：提供 2003 R2 标准版 / 2008 / 2012 供用户自行安装和处理授权问题，2G 内存起可用。</p>
+
+<h2>有没有远程控制？</h2>
+
+<p>我们提供 VNC 远程控制，遇到意外禁用网卡、内核配置错误等情况下可进入 VNC 放置维护光盘临时维护。</p>
+
+<h2>云端监控的粒度是多少？</h2>
+
+<p>秒级实时监控有 ⑨ 个字段，包括 CPU 使用率、公网带宽、包速、硬盘速度、IOPS。</p>
+
+<p>历史记录 25 个监控项，包括公网、内网的出入每秒带宽、流量、包量、每秒包速，硬盘读写每秒速度、吞吐量、每秒次数、总次数。</p>
+
+<p>我们保留最近一个月的分钟级历史记录和最近三个月的小时级历史记录，控制面板已经提供有统计图供可视化查阅，如需更精确数据可通过 API 调取原始统计数据。</p>
+
+<h2>高防服务是如何工作的？</h2>
+
+<p>购买高防服务之后将会分配到一个新的 IP 地址，在云服务器安装 Hostker Linux AntiDDOS 客户端之后，遇到流量洪水的时候，我们的硬防设备能在一分钟内检测出 3-7 层攻击包特征，并启动对应防御措施进行过滤。每台云服务器（每个 IP）的最高防护能力为 50Gbps。为避免后端 IP 暴露，可以通过修改路由表将特定业务出口变更至高防 IP 进行外部访问。具体细节可在购买后得到详细操作说明。</p>
+
+<h2>能不能额外购买 IPv4？</h2>
+
+<p>目前香港区域已开放购买公网附加 IPv4，每个 IP 费用为 0.03 元每小时（约等于 21 元每月）。需联系我们提供申请理由。</p>
+
+<h2>有没有备份？</h2>
+
+<p>备份服务还在开发中。</p>
+
+<h2>有没有 IPv6？</h2>
+
+<p>正在计划提供。</p>
+
+<h2>每台云服务器动态资源配额是如何分配的？</h2>
+
+<h3>公网上行带宽（中国香港 CN2）</h3>
+
+<p>突发带宽为 3Mbps，最近 1 小时 95th 值大于 2Mbps 时，系统会将配额限制到 1.5Mbps。隔天自动恢复。</p>
+
+<h3>公网下行带宽（中国香港 CN2）</h3>
+
+<p>突发带宽为 10Mbps，最近 1 小时 95th 值大于 8Mbps 时，系统会将配额限制到 5Mbps。隔天自动恢复。</p>
+
+<h3>公网带宽（美国洛杉矶 CN2）</h3>
+
+<p>突发带宽为 500Mbps，最近 1 小时消耗流量大于 10G 时，系统会将配额限制到 10Mbps。隔天自动恢复。</p>
+
+<h3>内网带宽</h3>
+
+<p>突发带宽为 1000Mbps，最近 1 小时 95th 值大于 500Mbps 时，系统会将配额限制到 100Mbps。隔天自动恢复。</p>
+
+<h3>硬盘</h3>
+
+<p>限制峰值 60MB/s 读写量，默认不对 IOPS（每秒读写次数）做配额限制。</p>
+
+<p>当用户长时间连续占用恶意 IO 时，系统会调低优先级，限制 IOPS 为 50 并降低每秒读写量。用户保证不恶意占用后可恢复配额。</p>
+
+<h3>CPU</h3>
+
+<p>CPU 资源不得长期占用，最近 3 小时使用率 95th 值超过 90% 时，系统将会自动降低运算优先级。隔天自动恢复。</p></div>
+
+</div>
+
+<footer class="step-5">
+	<div class="htko">
+	<p>"这一切,都是命运石之门的选择"</p>
+	</div>
+	<div class="layout">
+	<div class="l">
+	<a href="https://kurumi.ink/########" target="_blank">@ALICE</a>
+	<a href="https://kurumi.ink/" target="_blank">ALICE工作室运营</a>
+	<a href="https://kurumi.ink/">隶属 东方幻想乡 红魔馆 ALICE</a>
+	</div>
+	<div class="r">
+	<a href="https://www.hostker.com/" target="_blank">Theme by hostker</a>
+	</div>
+	</div>
+	</footer>
+</body>
+</html>

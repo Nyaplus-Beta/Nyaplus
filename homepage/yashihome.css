@@ -1,0 +1,203 @@
+/* @font-face {
+    font-family: 'webfont';
+    src: url('zcoolgaoduanhei151105.ttf');
+    font-weight: normal;
+    font-style: normal;
+} */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+    cursor: url('../resources/Arrow.cur'), auto;
+    background-size:100px 100px;
+    color: #FFF;
+    font-family: "思源黑体","Source Han Sans","微软雅黑","Microsoft YaHei","Hiragino Sans GB","STHeiti Light","SimHei";
+}
+a:link {
+	color: #FE99CC;
+	text-decoration: none;
+    cursor: url('../resources/hand.cur'), auto;
+}
+a:visited {
+	text-decoration: none;
+	color: #FE99CC;
+}
+a:hover {
+	text-decoration: none;
+	color: #FE99CC;
+}
+a:active {
+	text-decoration: none;
+	color: #FE99CC;
+}
+.linkbtn {
+    color: #FE99CC;
+	text-decoration: none;
+    cursor: url('../resources/hand.cur'), auto;
+}
+#titlebox {
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+#title {
+    height: 80px;
+	background: url("../resources/aaliyah.png") no-repeat center center;
+    background-size: 300px 80px;
+    align-content: center;
+    overflow: hidden;
+    font-size: 38pt;
+    color: transparent;
+    line-height: 80px;
+}
+#subtitle{
+    font-family: 'webfont';
+    cursor: url('../resources/hand.cur'), auto;
+}
+.menu {
+    position: fixed;
+    width: 320px;
+    height: 50px;
+    text-align: left;
+    /*background-color: #FE99CC;*/
+}
+.menu a {
+	color: #FFF;
+	text-decoration: none;
+}
+#msg {
+	background-color: rgba(255, 255, 255, 0.7);
+	position:absolute;
+	top:10%;
+	right:20px;
+	width:300px;
+	height:85vh;
+	border-radius:5px 5px 5px 5px;
+	display:none;
+	animation: msg 1s;
+	-webkit-animation: msg 1s; /*Safari and Chrome*/
+}
+@keyframes msg
+{
+  from {
+    opacity: 0;
+    -webkit-transform: msg(0, -100%, 0);
+    transform: msg(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: msg(0, 0, 0);
+    transform: msg(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes msg /*Safari and Chrome*/
+{
+  from {
+    opacity: 0;
+    -webkit-transform: msg(0, -100%, 0);
+    transform: msg(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: msg(0, 0, 0);
+    transform: msg(0, 0, 0);
+  }
+}
+#lv-container{
+	position: relative;
+	width:100%;
+	height:100%;
+}
+.outer-container{
+	width:100%;
+	height:100%;
+	position: relative;
+	overflow: hidden;
+}
+.inner-container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: -17px;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+@media screen and (max-width: 550px) {
+    #mainmenu {
+        top: 10px;
+        left: 10px;
+    }
+    #submenu {
+        top: 60px;
+        left: 10px;
+    }
+    #msg{
+		top: 20%;
+		width: 98%;
+		right:1%;
+        height: 80%;
+		
+	}
+    #lv-container{
+		width:96%;
+	}
+}
+@media screen and (min-width: 551px) {
+    #mainmenu {
+        top: 10px;
+        left: 5px;
+    }
+    #submenu {
+        top: 10px;
+        left: 330px;
+    }
+}
+.menu span {
+    font-family: 'webfont';
+    text-align: center;
+    width: 80px;
+    height: 100%;
+    text-shadow:0px 0px 5px #c46997;
+    float: left;
+}
+.menu span:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.menu h1 {
+    font-size: 20pt;
+    line-height: 0px;
+}
+.menu h2 {
+    font-size: 12pt;
+    line-height: 12px;
+}
+#foot {
+    user-select: none;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    font-size: 9pt;
+    color: lightgray;
+}
+#foot:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#yashipage {
+    z-index: 2;
+    background-color: #000;
+}

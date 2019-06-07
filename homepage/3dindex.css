@@ -27,3 +27,8 @@ button {
 .dg.ac {
 	z-index: 2 !important; /* TODO Solve this in HTML */
 }
+.main a {
+	position: absolute;
+	right: 20%;
+	size: cover;
+}

@@ -8,7 +8,6 @@ body, html {
 	height: 100%;
 	overflow: hidden;
 }
-
 canvas {
 		top: -100vh;
 		position: relative;
@@ -16,19 +15,4 @@ canvas {
 		height: 100%;
 		width: 100%;
 	}
-a:hover {
-	text-decoration: underline;
-}
 
-button {
-	cursor: pointer;
-	text-transform: uppercase;
-}
-.dg.ac {
-	z-index: 2 !important; /* TODO Solve this in HTML */
-}
-.main a {
-	position: absolute;
-	right: 20%;
-	size: cover;
-}

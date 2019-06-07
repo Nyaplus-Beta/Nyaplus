@@ -182,11 +182,11 @@
 #yashipagetitle {
 	position: fixed;
 	top: 15px;
-	right: 50px;
+	left: 50px;
 	width: 100%;
 	z-index: 9;
 	font-size: 10pt;
-	text-align: right;
+	text-align: left;
 	color: gray;
 }
 #yashipagetitle a {

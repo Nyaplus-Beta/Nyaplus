@@ -19,6 +19,19 @@ function showHide()
 		oDiv.style.display='block';
 	}
 }
+function showHidec()
+{
+	var oDiv=document.getElementById('hexNav');
+	
+	if(oDiv.style.display=='block')
+	{
+		oDiv.style.display='none';
+	}
+	else
+	{
+		oDiv.style.display='block';
+	}
+}
 
 (function(d, s) {
 	   var j, e = d.getElementsByTagName(s)[0];

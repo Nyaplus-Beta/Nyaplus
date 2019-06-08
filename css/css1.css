@@ -6,7 +6,3 @@ button {
 	cursor: pointer;
 	text-transform: uppercase;
 }
-.dg.ac {
-	z-index: 2 !important; /* TODO Solve this in HTML */
-
-}
